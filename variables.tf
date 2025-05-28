@@ -21,17 +21,17 @@ variable "cpu" {
 }
 
 variable "image_registry" {
-  default = "public.ecr.aws"
+  default = "908027394050.dkr.ecr.us-west-2.amazonaws.com"
   type    = string
 }
 
 variable "image_repository" {
-  default = "nginx/nginx"
+  default = "fem-fd-service"
   type    = string
 }
 
 variable "image_tag" {
-  default = "alpine"
+  default = "latest"
   type    = string
 }
 
